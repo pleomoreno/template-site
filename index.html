@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário Básico</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">   
+            <h1>Formulário de Cadastro</h1>
+            <form id="meuFormulario" class="formulario">
+                <div class="campo-formulario">
+                    <label for="nome">Nome completo</label>
+                    <input 
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite seu nome"
+                    />
+                </div>
+                <div class="campo-formulario">
+                    <label for="nome">E-mail:</label>
+                    <input 
+                        type="text"
+                        id="email"
+                        name="email"
+                        placeholder="Digite seu e-mail"
+                    />
+                </div>                
+                <div class="campo-formulario">
+                    <label for="nome">Senha:</label>
+                    <input 
+                        type="text"
+                        id="senha"
+                        name="senha"
+                        placeholder="Digite sua senha"
+                    />
+                </div>                
+                <div class="campo-formulario">
+                    <label for="nome">Número:</label>
+                    <input 
+                        type="text"
+                        id="numero"
+                        name="numero"
+                        placeholder="(00) 00000-0000"
+                    />
+                </div>                
+                <div class="campo-formulario">
+                    <label for="nome">Mensagem:</label>
+                    <input 
+                        type="text"
+                        id="mensagem"
+                        name="mensagem"
+                        placeholder="Digite uma mensagem"
+                    />
+                </div>
+                <button type="submit" class="botao-enviar">Enviar</button>
+            </form>
+        </div> 
+        <script src="script.js"></script>
+    </body>
+</html>

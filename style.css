@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(43, 39, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    width: 600px;
+    padding: 40px;
+}
+
+h1{
+    text-align: center;
+    color: darkslateblue;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campo{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label{
+    font-weight: 50px;
+    color: gray;
+    display: block;
+}
+
+input,
+textarea{
+    font-size:16px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input:focus 
+textarea:focus {
+    border-color: rgb(43, 39, 71);
+    outline: none;
+}
+
+.botao-enviar{
+    background-color: rgb(43, 39, 71);
+    color: whitesmoke;
+    padding: 8px;
+    width: 400px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+}
